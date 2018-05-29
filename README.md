@@ -1,8 +1,9 @@
-CMDQuest
-========
+# CMDQuest
 
-CMDQuest is a command line RPG. To explore, view weapons, view items, view your stats, use your comptuer or exit type in the "choose what to do" prompt:
+CMDQuest is a command line RPG.
 
-explore, weapons, items, stats, computer or exit.
+## Usage
 
-If you have any questions about this program please email me at apemax18@gmail.com.
+To explore, view weapons, view items, view your stats, view the map or exit type in the "choose what to do" prompt:
+
+explore, weapons, items, stats, map or exit.
