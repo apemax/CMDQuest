@@ -14,12 +14,11 @@
     You should have received a copy of the GNU General Public License
     along with CMDQuest.  If not, see <http://www.gnu.org/licenses/>.
 */
-// Copyright (C) 2011 - 2013 Peter Wright
+// Copyright (C) 2011 - 2019 Peter Wright
 // author: Peter (apemax) Wright
-// version: 0.0.7
 // CMDQuest
 
-#include <string>
+#include "global.h"
 using namespace std;
 
 //This is where all the global variables go.
@@ -28,7 +27,7 @@ char name[10];
 int health = 10;
 int attack = 10;
 int defence = 10;
-int exp = 0;
+int P_exp = 0;
 int level = 1;
 int money = 20;
 string equipW1 = "nothing";

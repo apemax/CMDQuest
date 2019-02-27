@@ -14,14 +14,10 @@
     You should have received a copy of the GNU General Public License
     along with CMDQuest.  If not, see <http://www.gnu.org/licenses/>.
 */
-// Copyright (C) 2011 - 2013 Peter Wright
+// Copyright (C) 2011 - 2019 Peter Wright
 // author: Peter (apemax) Wright
-// version: 0.0.7
 // CMDQuest
 
-#include <iostream>
-#include <stdlib.h>
-#include <string>
 #include "global.h"
 using namespace std;
 
@@ -122,7 +118,7 @@ int main()
 
                     cout << "Health = " << health << " Attack = " << attack << " Defence = " << defence << endl;
 
-                    cout << "Exp = " << exp << " Level = " << level << " Money = " << money << endl;
+                    cout << "Exp = " << P_exp << " Level = " << level << " Money = " << money << endl;
 
                     cout << "Equipped weapons: " << equipW1 << ", " << equipW2 << ", " << equipW3 << ", " << equipW4 << endl;
 

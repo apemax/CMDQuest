@@ -14,11 +14,12 @@
     You should have received a copy of the GNU General Public License
     along with CMDQuest.  If not, see <http://www.gnu.org/licenses/>.
 */
-// Copyright (C) 2011 - 2013 Peter Wright
+// Copyright (C) 2011 - 2019 Peter Wright
 // author: Peter (apemax) Wright
-// version: 0.0.7
 // CMDQuest
 
+#include <iostream>
+#include <stdlib.h>
 #include <string>
 using namespace std;
 
@@ -30,7 +31,7 @@ extern char name[10];
 extern int health;
 extern int attack;
 extern int defence;
-extern int exp;
+extern int P_exp;
 extern int level;
 extern int money;
 extern string equipW1;
